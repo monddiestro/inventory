@@ -2,11 +2,10 @@
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
 <!-- Sidebar - Brand -->
-<a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-  <div class="sidebar-brand-icon rotate-n-15">
-    <i class="fas fa-laugh-wink"></i>
+<a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url() ?>" >
+  <div class="sidebar-brand-icon">
+    
   </div>
-  <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
 </a>
 
 <!-- Divider -->
@@ -22,16 +21,46 @@
 <!-- Divider -->
 <hr class="sidebar-divider">
 
-<!-- Heading -->
-<div class="sidebar-heading">
-  Interface
-</div>
+<!-- Nav Item - Employees -->
+<li class="nav-item">
+  <a class="nav-link" href="charts.html">
+    <i class="fas fa-fw fa-user-friends"></i>
+    <span>Employees</span></a>
+</li>
+
+<!-- Nav Item - Computers -->
+<li class="nav-item">
+  <a class="nav-link" href="charts.html">
+    <i class="fas fa-fw fa-laptop"></i>
+    <span>Computers</span></a>
+</li>
+
+<!-- Nav Item - Keyboard -->
+<li class="nav-item">
+  <a class="nav-link" href="charts.html">
+    <i class="fas fa-fw fa-keyboard"></i>
+    <span>Keyboards</span></a>
+</li>
+
+<!-- Nav Item - Mouse -->
+<li class="nav-item">
+  <a class="nav-link" href="charts.html">
+    <i class="fas fa-fw fa-mouse-pointer"></i></i>
+    <span>Mouse</span></a>
+</li>
+
+<!-- Nav Item - Monitors -->
+<li class="nav-item">
+  <a class="nav-link" href="charts.html">
+    <i class="fas fa-fw fa-tv"></i>
+    <span>Monitors</span></a>
+</li>
 
 <!-- Nav Item - Pages Collapse Menu -->
 <li class="nav-item">
   <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
     <i class="fas fa-fw fa-cog"></i>
-    <span>Components</span>
+    <span>Allocation</span>
   </a>
   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">

@@ -8,6 +8,10 @@
   <!-- Custom scripts for all pages-->
   <script src="<?php echo base_url('src/js/sb-admin-2.min.js') ?>"></script>
 
+  <!-- Bootsrap Select -->
+  <script src="<?php echo base_url('src/js/bootstrap-select.min.js') ?>"></script>
+
+
   </body>
 
 </html>

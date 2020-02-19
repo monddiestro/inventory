@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - Dashboard</title>
+  <title><?php echo $page_title . " | Tech Inventory | Carbay Philippines Inc."?></title>
 
   <!-- Custom fonts for this template-->
   <link href="<?php echo base_url('src/css/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">
@@ -17,6 +17,9 @@
 
   <!-- Custom styles for this template-->
   <link href="<?php echo base_url('src/css/sb-admin-2.min.css') ?>" rel="stylesheet">
+
+  <!-- Bootsrap select css -->
+  <link href="<?php echo base_url('src/css/bootstrap-select.min.css') ?>" rel="stylesheet">
 
 </head>
 
